@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+ <Button
+     android:layout_width="300dp"
+     android:layout_height="60dp"
+     android:text="PHYSICS"
+     android:layout_marginLeft="30dp"
+     android:layout_marginTop="50dp"
+     android:id="@+id/btnphy"
+     />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="CHEMISTRY"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:id="@+id/btnchem"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="BIOLOGY"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="190dp"
+        android:id="@+id/btnbio"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="URDU"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="260dp"
+        android:id="@+id/btnurdu"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="ENGLISH"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="330dp"
+        android:id="@+id/btneng"
+        />
+
+</RelativeLayout>
